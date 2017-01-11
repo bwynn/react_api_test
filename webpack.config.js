@@ -7,6 +7,10 @@ module.exports = {
   resolve: {
     root: __dirname,
     alias: {
+      Main: 'app/components/Main.jsx',
+      UsersAPI: 'app/api/users_api.jsx',
+      UserSearchForm: 'app/components/UserSearchForm.jsx',
+      GetUsers: 'app/components/GetUsers.jsx',
     },
     extensions: [
       '',
