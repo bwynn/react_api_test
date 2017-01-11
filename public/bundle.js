@@ -24799,7 +24799,7 @@
 	      if (users.length > 0) {
 	        debugger;
 	        return React.createElement(
-	          'ul',
+	          'div',
 	          null,
 	          users.map(function (user, index) {
 	            return React.createElement(

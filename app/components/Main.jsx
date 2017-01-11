@@ -37,7 +37,7 @@ const Main = React.createClass({
       if (users.length > 0) {
         debugger;
         return (
-          <ul>
+          <div>
             {users.map(function (user, index) {
               return <div key={index}>
                       <ul>
@@ -48,7 +48,7 @@ const Main = React.createClass({
                     </div>;
             })}
             
-          </ul>
+          </div>
         );
       }
     };
